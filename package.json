@@ -1,0 +1,14 @@
+{
+  "name": "pacenote-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "docker:up": "cd infra/docker && podman-compose up -d"
+  },
+  "devDependencies": {
+    "eslint": "^10.4.0",
+    "typescript": "^5.0.0"
+  }
+}

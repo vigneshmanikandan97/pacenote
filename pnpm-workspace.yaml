@@ -1,0 +1,6 @@
+# pacenote/pnpm-workspace.yaml
+packages:
+  - 'apps/*'
+  - 'packages/*'
+  # We explicitly exclude 'infra' and '.github' because they don't have package.jsons
+  # or aren't meant to be installed as npm packages.
