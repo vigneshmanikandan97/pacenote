@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Pacenote",
+    "slug": "pacenote",
+    "scheme": "pacenote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png"
+    },
+    "userInterfaceStyle": "light",
+    "iosBundleIdentifier": "com.pacenote.app",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-sensors"
+    ],
+    "android": {
+      "package": "com.pacenote.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    }
+  }
+}
